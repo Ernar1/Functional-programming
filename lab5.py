@@ -1,26 +1,19 @@
 #1
-""""
-def is_sorted(lst):
-    if lst == sorted(lst):
-        return True
-    elif lst == sorted(lst, reverse=True):
-        return False
-print(is_sorted(['a', 'b', 'c', 'd']))
-"""
-
-#2
-''''
-name = ['Mazhenov Ernar']
-course = [4]
-gpa = [2.9]
-age = [20]
-print("Резюме: \n", name)
-print(course)
-print(gpa)
-print(age)
 '''
-
-#3
+name = ['Mazhenov Ernar']
+age = [20]
+name.append('ernarmazhenov2000@gmail.com')
+print("Резюме: \n", name)
+print(age)
+University = [ 'Name: Satbayev University',
+'Course: 4',
+'Gpa: 2.9',
+'Entry year: 2019',
+'Ending year: 2023' ]
+University.insert(1,'Department: Programm engineering')
+print(University)
+'''
+#2
 ''''
 students = [
         ('Mazhenov Ernar', 3),
@@ -31,3 +24,26 @@ students = [
 print(sorted(students, key=lambda v: (v[1])))
 [('fio3', 1), ('fio0', 1), ('fio2', 1), ('fio1', 2)]
 '''
+
+#3
+
+student = ['Mazhenov Ernar']
+student1 = ['Auezov Abzal']
+student2 = ['Rayimbek Muzameluly']
+grade = [4]
+grade1 = [5]
+grade2 = [4]
+print('Student name: ',student,f'Student grade: {grade}')
+print('Student name: ',student1,f'Student grade: {grade1}')
+
+#4
+"""
+def is_sorted(lst):
+    if lst == sorted(lst):
+        return True
+    elif lst == sorted(lst, reverse=True):
+        return False
+print(is_sorted(['a', 'b', 'c', 'd']))
+"""
+
+
