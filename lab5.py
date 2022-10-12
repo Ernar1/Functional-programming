@@ -14,7 +14,7 @@ University.insert(1,'Department: Programm engineering')
 print(University)
 '''
 #2
-''''
+'''
 students = [
         ('Mazhenov Ernar', 3),
         ('Auezov Abzal', 4),
@@ -22,11 +22,11 @@ students = [
         ('Aitkali Azamat', 1)
     ]
 print(sorted(students, key=lambda v: (v[1])))
-[('fio3', 1), ('fio0', 1), ('fio2', 1), ('fio1', 2)]
+[('Mazhenov Ernar', 3), ('Auezov Abzal', 4), ('Kanagatov Murat', 2), ('Aitkali Azamat', 1)]
 '''
 
 #3
-
+'''
 student = ['Mazhenov Ernar']
 student1 = ['Auezov Abzal']
 student2 = ['Rayimbek Muzameluly']
@@ -35,15 +35,19 @@ grade1 = [5]
 grade2 = [4]
 print('Student name: ',student,f'Student grade: {grade}')
 print('Student name: ',student1,f'Student grade: {grade1}')
-
+'''
 #4
-"""
-def is_sorted(lst):
-    if lst == sorted(lst):
-        return True
-    elif lst == sorted(lst, reverse=True):
-        return False
-print(is_sorted(['a', 'b', 'c', 'd']))
-"""
+''''
+my_list = []
+while True:
+  n = int(input('Введите число: '))
+  if(n!=0):
+    my_list.append(n)
+  else:
+    listSort = sorted(list)
+    for i in listSort:
+      print(i)
+    break
+'''
 
 
